@@ -1,0 +1,10 @@
+import os
+print (os.getcw())
+
+with open('file.txt, 'r') as file:
+  contents = file.readlines()
+  
+for i in range (len(contents)):
+  contents[i] = contents[i].strip()
+  
+print (contents)
